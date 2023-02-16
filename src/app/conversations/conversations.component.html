@@ -1,1 +1,19 @@
-<p>conversations works!</p>
+
+		<div class="mx-auto max-w-6xl w-full pt-4 pb-24">
+			<div class="px-4 md:px-6">
+                <div class="flex flex-col space-y-4 py-3">
+                    <!-- {#if $conversations.length === 0}
+                        <DefaultMsg />
+                    {:else}
+                        {#each $conversations as chat, index}
+                            {#if chat.isHuman}
+                                <YourText bind:chat isLastBlock={$conversations.length === index + 1} />
+                            {:else}
+                                <GeneratedText bind:chat />
+                            {/if}
+                        {/each}
+                    {/if} -->
+                </div>
+                <div id="lastMessage" class="h-0" ></div>  
+            </div>
+		</div>

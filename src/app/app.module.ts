@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ConversationsComponent } from './conversations/conversations.component';
 import { PromptInputFieldComponent } from './prompt-input-field/prompt-input-field.component';
+import { LogoComponent } from './logo/logo.component';
+import { LinkComponent } from './link/link.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ConversationsComponent,
-    PromptInputFieldComponent
+    PromptInputFieldComponent,
+    LogoComponent,
+    LinkComponent
   ],
   imports: [
     BrowserModule,

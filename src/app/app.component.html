@@ -1,1 +1,8 @@
-<h1 class="text-xl font-semibold">Hello</h1>
+<div
+	class="flex max-h-screen text-slate-700 min-h-screen flex-col items-center space-y-4 bg-gradient-to-br from-blue-50 to-blue-100"
+>
+	<!-- What html element is used for angular to wrap elements as a component? -->
+	<app-navbar class="w-full" />
+	<app-conversations  id="scrollContainer" class="overflow-y-auto scroll-smooth h-full w-full flex flex-col flex-grow" />
+	<app-prompt-input-field class="w-full px-4 pt-3 pb-3 md:px-6 md:pb-6" />
+</div>

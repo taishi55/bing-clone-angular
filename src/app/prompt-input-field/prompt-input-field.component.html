@@ -1,1 +1,41 @@
-<p>prompt-input-field works!</p>
+
+	<div class="mx-auto flex max-w-6xl items-start space-x-3">
+		<div
+			class="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-blue-700 py-1 text-white lg:h-auto lg:w-auto lg:px-4"
+		>
+			<button
+           
+				class="flex items-center"
+			>
+				<i class="fa-regular fa-pen-to-square" ></i>
+				<div class="hidden pl-2 lg:block">New Topic</div>
+			</button>
+		</div>
+		<div class="h-full flex-1 rounded-md bg-white p-3 md:rounded-lg">
+			<div class="flex items-start space-x-2">
+				<div class="flex-1">
+					<textarea
+						
+						class="block w-full resize-none outline-none focus:placeholder-transparent"
+						placeholder="&#x21bb; Ask me anything..."
+					></textarea>
+				</div>
+				<button disabled class="block text-slate-400">
+                    <i class="fa-solid fa-microphone" ></i>
+                </button>
+			</div>
+			<div class="flex items-start space-x-2">
+				<div
+					class="flex-1 text-sm text-slate-300"
+				>
+                <!-- need to learn how to pass data from parent  -->
+					xx/2000
+				</div>
+				<button disabled class="block text-slate-400"
+					>
+                    <i class="fa-solid fa-thumbtack rotate-45"></i>
+                    </button
+				>
+			</div>
+		</div>
+	</div>
