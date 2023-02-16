@@ -1,7 +1,7 @@
 ## Bing Chat Clone
 made by using Angular
 
-I am rewriting one of my open source project in Angular.  This is my first time to build an application using Angular. Threfore, my code would be a lot of room for improvements. 
+I am rewriting one of my open source projects in Angular.  This is my first time to build an application using Angular. Threfore, my code would be a lot of room for improvements. 
 
 For security purpose, I recommend to run the repo locally.
 https://chatgpt-phantom.vercel.app/epic
