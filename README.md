@@ -1,9 +1,9 @@
 ## Bing Chat Clone
-trying to make one of my open source projects in Angular (Failed)
+trying to rewrite one of my open source projects in another framework (Angular)
 
 This is my first time to build an application using Angular. Threfore, there are a lot of room for improvements. 
 
-Update: Angular has no future.
+Update: Angular is painful.
 
 For security purpose, I recommend to run the repo locally.
 https://chatgpt-phantom.vercel.app/epic
